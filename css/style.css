@@ -107,3 +107,37 @@ Inicio CSS menu header
 Fin CSS menu header
 
 */
+
+
+
+
+/*Inicio CSS seccion principal*/
+
+.principal_fondo {
+    padding-top: 50px;
+    background-image: url("../images/f1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.principal .detalles_principal {
+    width: 80%;
+
+}
+
+.principal .detalles_principal .titulo {
+ color:white;
+ font-size: 80px;
+ width: 560px;
+}
+
+
+.principal .detalles_principal .subtitulo {
+    color:white;
+    font-size: 27px;
+  
+   }
+   
+
+/*Inicio CSS seccion principal*/
