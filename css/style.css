@@ -68,6 +68,8 @@ Inicio CSS menu header
 .header .menu i,
 .header .menu a {
     color: rgba(225, 255 , 255 , .781);
+    text-decoration: none;
+    font-size: 19px;
 }
 
 
