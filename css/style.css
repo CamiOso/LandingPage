@@ -170,4 +170,32 @@ Fin CSS menu header
     transition: .4s ease-in;
 }
 
-/*Inicio CSS seccion principal*/
+
+.principal .navegacion {
+    width: 20%;
+    font: 40px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    padding-bottom: 20px ;
+    color:white;
+
+}
+
+.principal .navegacion i {
+    padding:30px 40px;
+    border-radius: 50%;
+    transition: .5s ease-in;
+}
+
+.principal .navegacion i:hover {
+    background-color: white;
+    color:blueviolet;
+    border-radius: 50%;
+    transition: .5s ease-in;
+
+
+}
+
+
+/*Fin CSS seccion principal*/
