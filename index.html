@@ -8,17 +8,17 @@
       src="https://kit.fontawesome.com/aec02f8fda.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css"/>
     <title>Sitio Web</title>
   </head>
   <body>
-    <div class="menu_fondo">
+    <div class="menu_fondo header">
       <div class="contenedor">
         <div class="elementos">
           <div>
             <h2 class="logo">LogoTipo</h2>
           </div>
-        </div>
+       
 
         <div class="menu">
           <ul class="items">
@@ -30,9 +30,19 @@
             <li><a href="#opiniones">Opiniones</a></li>
             <li><a href="#contacto">Contacto</a></li>
             <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+
+            <li> <form action="" method="post">
+              <input type="text" name="buscar" id="buscador" placeholder="Buscar..." class="oculto">
+              <a href="" id="search" onclick="buscar()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+              </a>
+            </form>
+            </li>
             
           </ul>
         </div>
+      </div>
       </div>
     </div>
   </body>
