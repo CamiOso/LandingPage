@@ -17,6 +17,12 @@ Inicio Codigo General
     flex-direction: row;
 }
 
+
+.separador {
+    margin:100px auto;
+
+}
+
 /*
 Fin de Codigo General
 */
@@ -33,6 +39,10 @@ Inicio CSS menu header
 .menu_fondo {
 
     background-color: rgba(115,112,216,1);
+    position:fixed;
+    top:0;
+    width:100%;
+
 }
 
 
