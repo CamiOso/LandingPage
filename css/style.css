@@ -23,6 +23,26 @@ Inicio Codigo General
 
 }
 
+.informacion {
+    margin:50px auto;
+    text-align: center;
+
+}
+
+
+.informacion .titulo {
+    font-size: 30px;
+    color:rgb(81,81,81);
+    margin-bottom: 20px;
+
+}
+
+.informacion .subtitulo {
+    font-size: 20px;
+    color:rgb(81,81,81);
+    margin-bottom: 20px;
+
+}
 /*
 Fin de Codigo General
 */
